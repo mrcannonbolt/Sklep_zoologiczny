@@ -1,0 +1,67 @@
+// Include custom veriables default overrides here
+
+$primary: black;
+
+$theme-colors: (
+    "primary": $primary
+);
+
+@import "./bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+body {
+    background-color: #e6ebed;
+  }
+
+///////////////////HEADER/////////////////////////
+#masthead
+{
+    background-color: rgb(136, 174, 227);
+    border:solid black 1px;
+    width:100%;
+}
+.left_box_header
+{
+    flex-shrink: 1;
+}
+
+.left_up_header
+{
+    text-align: center;
+    white-space: nowrap;
+}
+.left_up_header h1
+{
+    font-size: 1.8rem;
+}
+
+.right_up_header
+{
+    justify-content: center;
+    display:flex;
+    font-size:2rem;
+    flex-direction: row;
+}
+
+.allegro
+{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    padding-left: 4px;
+}
+
+.aws-container
+{
+    border:solid black 1px;
+}
+.aws-search-btn
+{
+    border:solid black 1px; 
+}
+.header-icons
+{
+    display:flex;
+    justify-content: space-around;
+}
